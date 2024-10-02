@@ -1,0 +1,19 @@
+{
+  "name": "Josh666",
+  "email": "Josh666@gmail.com",
+  "password": "Josh666abc",
+  "dob": {
+    "day": "15",
+    "month": "July",
+    "year": "2000"
+  },
+  "first_name": "Josh",
+  "last_name": "Doe",
+  "address": "Alleyway 123",
+  "company": "Devon Energy",
+  "country": "United States",
+  "state": "New York",
+  "city": "Geneva",
+  "zipcode": "10001",
+  "mobile_number": "1234567890"
+}
