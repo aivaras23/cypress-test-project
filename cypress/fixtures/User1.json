@@ -10,6 +10,7 @@
   "first_name": "Josh",
   "last_name": "Doe",
   "address": "Alleyway 123",
+  "address2": "Alleyway 321",
   "company": "Devon Energy",
   "country": "United States",
   "state": "New York",
