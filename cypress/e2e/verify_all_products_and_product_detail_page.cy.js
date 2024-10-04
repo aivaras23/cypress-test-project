@@ -1,5 +1,4 @@
 const fileName = 'contactmsg.txt';
-
 describe('Test Case 8: Verify All Products and product detail page', () => {
   it('should submit the contact us form', () => {
     // 1. Launch browser, 
@@ -14,7 +13,6 @@ describe('Test Case 8: Verify All Products and product detail page', () => {
     cy.get('.features_items')
       .children()
       .should('have.length.greaterThan', 0); // Ensures the div has more than 0 children
-
     // 7. Click on 'View Product' of first product
     cy.get('a[href="/product_details/1"]').click();
     // 8. User is landed to product detail page

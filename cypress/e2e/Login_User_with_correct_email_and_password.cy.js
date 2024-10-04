@@ -1,5 +1,4 @@
 describe('Test Case 2: Login User with correct email and password, then delete account', () => {
-
   beforeEach(() => {
     // 1. Launch browser, 
     // 2. navigate to url,
@@ -8,7 +7,6 @@ describe('Test Case 2: Login User with correct email and password, then delete a
     // Load user data from fixture
     cy.fixture('user2').as('user');
   });
-
   it('Log in to the account.', () => {
     // 4. Click on 'Signup / Login' button
     cy.get('a[href="/login"]').click();
@@ -30,5 +28,6 @@ describe('Test Case 2: Login User with correct email and password, then delete a
       // Click 'Continue' button
       cy.get('a[data-qa="continue-button"]').click();
     });
+
   });
 })

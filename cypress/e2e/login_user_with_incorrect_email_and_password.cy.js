@@ -1,5 +1,4 @@
 describe('Test Case 3: Login User with incorrect email and password', () => {
-
   beforeEach(() => {
     // 1. Launch browser, 
     // 2. navigate to url,
@@ -16,7 +15,6 @@ describe('Test Case 3: Login User with incorrect email and password', () => {
     cy.get('.login-form h2').should('contain.text', 'Login to your account');
 
     cy.get('@user').then((user) => {
-
       // 6. Enter incorrect email address and password
       cy.get('input[data-qa="login-email"]').type(user.email);
       cy.get('input[data-qa="login-password"]').type(user.password);
@@ -25,5 +23,6 @@ describe('Test Case 3: Login User with incorrect email and password', () => {
       // 8. Verify error 'Your email or password is incorrect!' is visible
       cy.contains('Your email or password is incorrect!').should('be.visible');
     });
+
   });
 })

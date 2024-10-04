@@ -1,5 +1,4 @@
 describe('Test Case 4: Logout User', () => {
-
   beforeEach(() => {
     // 1. Launch browser, 
     // 2. navigate to url,
@@ -28,5 +27,6 @@ describe('Test Case 4: Logout User', () => {
       // 10. Verify that user is navigated to login page
       cy.url().should('include', '/login');
     });
+
   });
 })

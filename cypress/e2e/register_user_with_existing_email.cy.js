@@ -1,5 +1,4 @@
 describe('Test Case 5: Register User with existing email', () => {
-
   beforeEach(() => {
     // 1. Launch browser, 
     // 2. navigate to url,
@@ -8,7 +7,6 @@ describe('Test Case 5: Register User with existing email', () => {
     // Load user data from fixture
     cy.fixture('user2').as('user');
   });
-
   it('Register User with existing email', () => {
     // 4. Click on 'Signup / Login' button
     cy.get('a[href="/login"]').click();

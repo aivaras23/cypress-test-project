@@ -7,22 +7,6 @@ describe('Test Case 1: Register User', () => {
     // Load user data from fixture
     cy.fixture('user1').as('user');
   });
-
-  // it('Verify "New User Signup!" is visible', () => {
-  //   cy.get('a[href="/login"]').click();
-  //   cy.get('.signup-form h2').should('contain.text', 'New User Signup!');
-  // });
-
-  // it('Fill signup form with name and email, then click Signup button', () => {
-  //   cy.get('@user').then((user) => {
-  //     cy.get('a[href="/login"]').click();
-  //     cy.get('input[data-qa="signup-name"]').type(user.name);
-  //     cy.get('input[data-qa="signup-email"]').type(user.email);
-  //     cy.get('button[data-qa="signup-button"]').click();
-  //     cy.url().should('include', '/signup');
-  //   });
-  // });
-
   it('Fill in account information, register the user and then delete it', () => {
     cy.get('@user').then((user) => {
       // 4. Click on 'Signup / Login' button
