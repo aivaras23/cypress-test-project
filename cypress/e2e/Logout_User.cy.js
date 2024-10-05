@@ -5,7 +5,7 @@ describe('Test Case 4: Logout User', () => {
     // 3. Verify that home page is visible successfully
     cy.launchPage();
     // Load user data from fixture
-    cy.fixture('user2').as('user');
+    cy.fixture('LogOutUser').as('user');
   });
 
   it('Log in to the account and then logout.', () => {
