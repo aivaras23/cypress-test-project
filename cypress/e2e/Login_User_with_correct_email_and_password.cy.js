@@ -5,7 +5,7 @@ describe('Test Case 2: Should login as a user with the correct email and passwor
     // 3. Verify that home page is visible successfully
     cy.launchPage();
     // Load user data from fixture
-    cy.fixture('user1').as('user');
+    cy.fixture('User1').as('user');
   });
   // firstly register a new account
   it('Fill in account information, register the user and then delete it', () => {
