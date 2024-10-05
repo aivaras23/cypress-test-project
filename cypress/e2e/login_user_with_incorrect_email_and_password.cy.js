@@ -1,4 +1,4 @@
-describe('Test Case 3: Login User with incorrect email and password', () => {
+describe(`Test Case 3: Shouldn't be able to login if provided credintials are incorrect.`, () => {
   beforeEach(() => {
     // 1. Launch browser, 
     // 2. navigate to url,

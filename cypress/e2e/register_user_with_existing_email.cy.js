@@ -1,11 +1,11 @@
-describe('Test Case 5: Register User with existing email', () => {
+describe(`Test Case 5: Shouldn't be able to register a new user with existing email`, () => {
   beforeEach(() => {
     // 1. Launch browser, 
     // 2. navigate to url,
     // 3. Verify that home page is visible successfully
     cy.launchPage();
     // Load user data from fixture
-    cy.fixture('user2').as('user');
+    cy.fixture('adminUser').as('user');
   });
   it('Register User with existing email', () => {
     // 4. Click on 'Signup / Login' button

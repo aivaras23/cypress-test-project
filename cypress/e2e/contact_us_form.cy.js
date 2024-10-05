@@ -1,5 +1,5 @@
 const fileName = 'contactmsg.txt';
-describe('Test Case 6: Contact Us Form', () => {
+describe('Test Case 6: Should successfully submit a message in the "Contact Us Form."', () => {
   beforeEach(() => {
     // 1. Launch browser, 
     // 2. navigate to url,

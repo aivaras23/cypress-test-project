@@ -1,11 +1,11 @@
-describe('Test Case 4: Logout User', () => {
+describe('Test Case 4: Logout User successfully', () => {
   beforeEach(() => {
     // 1. Launch browser, 
     // 2. navigate to url,
     // 3. Verify that home page is visible successfully
     cy.launchPage();
     // Load user data from fixture
-    cy.fixture('LogOutUser').as('user');
+    cy.fixture('adminUser').as('user');
   });
 
   it('Log in to the account and then logout.', () => {

@@ -1,4 +1,4 @@
-describe('Test Case 1: Register User', () => {
+describe('Test Case 1: Should registrate a new user, then delete it successfully.', () => {
   beforeEach(() => {
     // 1. Launch browser, 
     // 2. navigate to url,
