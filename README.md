@@ -39,7 +39,13 @@ To install Cypress and set up the project, follow these steps:
     cd cypress-test-project
     ```
 
-3. Install the required dependencies:
+3. (Optional) If you're using Visual Studio Code, you can open the project directly in VS Code:
+
+    ```bash
+    code . -r
+    ```
+
+4. Open your terminal (or terminal in your code editor) and install the required dependencies:
 
     ```bash
     npm i
