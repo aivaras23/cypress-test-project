@@ -6,7 +6,7 @@ describe('Test Case 1: Should register a new user, then delete it successfully.'
     // 3. Verify that home page is visible successfully
     cy.launchPage();
     // Load user data from fixture
-    cy.fixture('User1').as('user');
+    cy.fixture('RegisterData').as('user');
   });
 
   it('Register the user and then delete it', () => {
