@@ -1,3 +1,4 @@
+import 'cypress-file-upload';
 const fileName = 'contactmsg.txt';
 describe('Test Case 6: Should successfully submit a message in the "Contact Us Form."', () => {
   beforeEach(() => {

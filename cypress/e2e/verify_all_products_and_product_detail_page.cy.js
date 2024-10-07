@@ -1,4 +1,3 @@
-const fileName = 'contactmsg.txt';
 describe('Test Case 8: Verify All Products and product detail page', () => {
   it('should submit the contact us form', () => {
     // 1. Launch browser, 
